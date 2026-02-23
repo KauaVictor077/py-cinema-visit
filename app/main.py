@@ -1,8 +1,13 @@
-import pkg.mod1
-import pkg.mod2
-from pkg.mod1 import foo
-from pkg.mod2 import Bar as Qux
-
-bar_instance = pkg.mod2.Bar()
-foo()
-qux_instance = Qux()
+py-cinema-visit/
+  app/
+    cinema/
+      bar.py
+      hall.py
+    people/
+      cinema_staff.py
+      customer.py
+    main.py
+  tests/
+    test_bar.py
+    test_cleaner.py
+    ...
