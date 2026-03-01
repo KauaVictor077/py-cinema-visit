@@ -1,13 +1,3 @@
-py-cinema-visit/
-  app/
-    cinema/
-      bar.py
-      hall.py
-    people/
-      cinema_staff.py
-      customer.py
-    main.py
-  tests/
-    test_bar.py
-    test_cleaner.py
-    ...
+  hall = CinemaHall(number=hall_number)
+    hall.movie_session(movie_name=movie, customers=customer_instances,
+                       cleaning_staff=cleaning_staff)
